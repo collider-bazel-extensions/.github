@@ -70,6 +70,7 @@ Bugs and feature requests for an existing package go in that package's repo.
 | [rules_gitleaks](https://github.com/collider-bazel-extensions/rules_gitleaks) | gitleaks secret scans as tests, validation actions or an aspect |
 | [rules_trivy](https://github.com/collider-bazel-extensions/rules_trivy) | Offline Trivy scans of images and Kubernetes/Helm/Terraform configs |
 | [rules_osv](https://github.com/collider-bazel-extensions/rules_osv) | Offline osv-scanner lockfile scans against a pinned OSV snapshot |
+| [rules_zap](https://github.com/collider-bazel-extensions/rules_zap) | OWASP ZAP API scans of your server as offline Bazel tests |
 
 ## Code generation, schemas and languages
 
