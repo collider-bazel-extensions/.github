@@ -68,6 +68,8 @@ Bugs and feature requests for an existing package go in that package's repo.
 | [rules_opa](https://github.com/collider-bazel-extensions/rules_opa) | Hermetic OPA: `opa_test` and `opa_fmt_check` |
 | [rules_kyverno](https://github.com/collider-bazel-extensions/rules_kyverno) | Kyverno policy checks, test suites, compliance tests, install |
 | [rules_gitleaks](https://github.com/collider-bazel-extensions/rules_gitleaks) | gitleaks secret scans as tests, validation actions or an aspect |
+| [rules_trivy](https://github.com/collider-bazel-extensions/rules_trivy) | Offline Trivy scans of images and Kubernetes/Helm/Terraform configs |
+| [rules_osv](https://github.com/collider-bazel-extensions/rules_osv) | Offline osv-scanner lockfile scans against a pinned OSV snapshot |
 
 ## Code generation, schemas and languages
 
