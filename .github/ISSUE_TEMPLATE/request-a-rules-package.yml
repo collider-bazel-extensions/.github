@@ -1,0 +1,64 @@
+name: Request a rules package
+description: Ask for a new collider-bazel-extensions rules package for a tool or service.
+title: "[Request]: rules_"
+labels: ["package-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. Requests are triaged from
+        [collider-bazel-extensions/.github](https://github.com/collider-bazel-extensions/.github/issues?q=label%3Apackage-request);
+        if you opened this form from another repo, that's fine too.
+
+        For a bug or a feature in an existing package, open an issue in that package's repo instead.
+  - type: input
+    id: tool
+    attributes:
+      label: Tool or service
+      description: What should the package wrap?
+      placeholder: e.g. Redpanda, Linkerd, Keycloak
+    validations:
+      required: true
+  - type: input
+    id: upstream
+    attributes:
+      label: Upstream project
+      description: Link to its homepage or source repository.
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: checkboxes
+    id: shape
+    attributes:
+      label: What do you need from it?
+      options:
+        - label: A hermetic, pinned CLI or binary runnable from Bazel
+        - label: Build-time checks (config/policy validation, linting, codegen)
+        - label: A per-test instance (started and torn down by each test)
+        - label: An install into a test Kubernetes cluster (with rules_kind / rules_itest)
+        - label: Something else (describe below)
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+      description: What would you test or build with it? Concrete examples help most.
+    validations:
+      required: true
+  - type: input
+    id: platforms
+    attributes:
+      label: Platforms
+      description: Host platforms you build and test on.
+      placeholder: e.g. Linux x86_64, macOS arm64
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Existing options
+      description: |
+        Rules you've tried or found (Bazel Central Registry modules, other rule sets), and what's missing.
+        This also helps avoid name clashes with BCR modules.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Versions to support, upstream install method (static manifest, Helm chart, operator), constraints.
