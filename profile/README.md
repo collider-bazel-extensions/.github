@@ -84,3 +84,8 @@ Bugs and feature requests for an existing package go in that package's repo.
 Note: `rules_playwright`, `rules_helm` and `rules_ada` share names with
 unrelated modules in the Bazel Central Registry; each README explains how to
 install the right one.
+
+## License
+
+Every package is licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)
+(SPDX `Apache-2.0`), with the text in each repo's `LICENSE`.
