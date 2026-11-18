@@ -16,6 +16,7 @@ Bugs and feature requests for an existing package go in that package's repo.
 | [rules_kubernetes](https://github.com/collider-bazel-extensions/rules_kubernetes) | Hermetic Kubernetes API server, no Docker or root |
 | [rules_kubectl](https://github.com/collider-bazel-extensions/rules_kubectl) | `kubectl apply` as a rules_itest service |
 | [rules_helm](https://github.com/collider-bazel-extensions/rules_helm) | Hermetic Helm: `helm_template` and `helm_lint` |
+| [rules_hydrophone](https://github.com/collider-bazel-extensions/rules_hydrophone) | Kubernetes conformance (hydrophone) as a Bazel test against your cluster |
 
 ## Cluster installs
 
