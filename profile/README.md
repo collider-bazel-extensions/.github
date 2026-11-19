@@ -56,6 +56,7 @@ Bugs and feature requests for an existing package go in that package's repo.
 | [rules_pg](https://github.com/collider-bazel-extensions/rules_pg) | An isolated PostgreSQL cluster per test |
 | [rules_valkey](https://github.com/collider-bazel-extensions/rules_valkey) | Per-test Valkey (standalone or cluster), config checks, cluster install |
 | [rules_clickhouse](https://github.com/collider-bazel-extensions/rules_clickhouse) | Per-test ClickHouse servers with ordered SQL migrations |
+| [rules_openmeter](https://github.com/collider-bazel-extensions/rules_openmeter) | Per-test OpenMeter (API + sink worker) on Kafka, ClickHouse and Postgres |
 | [rules_minio](https://github.com/collider-bazel-extensions/rules_minio) | Per-test MinIO, policy checks, cluster install |
 | [rules_nats](https://github.com/collider-bazel-extensions/rules_nats) | Per-test NATS servers, cluster install |
 | [rules_vault](https://github.com/collider-bazel-extensions/rules_vault) | Per-test dev-mode Vault, policy checks, HA cluster install |
