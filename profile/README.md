@@ -32,7 +32,7 @@ Bugs and feature requests for an existing package go in that package's repo.
 | [rules_crossplane](https://github.com/collider-bazel-extensions/rules_crossplane) | Crossplane (`crank render` and the controller) |
 | [rules_external_secrets](https://github.com/collider-bazel-extensions/rules_external_secrets) | External Secrets Operator install |
 | [rules_harbor](https://github.com/collider-bazel-extensions/rules_harbor) | Harbor registry install |
-| [rules_kafka](https://github.com/collider-bazel-extensions/rules_kafka) | Apache Kafka install |
+| [rules_kafka](https://github.com/collider-bazel-extensions/rules_kafka) | Per-test Kafka brokers (KRaft, no host Java), cluster install |
 | [rules_keda](https://github.com/collider-bazel-extensions/rules_keda) | KEDA install |
 | [rules_tekton](https://github.com/collider-bazel-extensions/rules_tekton) | Tekton Pipelines install |
 | [rules_zitadel](https://github.com/collider-bazel-extensions/rules_zitadel) | Zitadel install with OIDC round-trip smoke |
